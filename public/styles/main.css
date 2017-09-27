@@ -27,3 +27,14 @@
      font-family: 'Frijole';
  }
 
+ span {
+     font-weight: bold;
+     font-size: 20px;
+ }
+ .btn {
+     margin: 30px;
+ }
+
+ .wins {
+     font-size: 40px;
+ }
