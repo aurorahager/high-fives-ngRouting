@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/services/highFive.service.js"></script>
+    <script src="scripts/controllers/home.controller.js"></script>
+    <script src="scripts/controllers/percyJ.controller.js"></script>
+    <script src="scripts/controllers/wonderwoman.controller.js"></script>
+    <script src="scripts/controllers/zuko.controller.js"></script>
+    <title>Characters</title>
+</head>
+<body ng-app="myApp">
+    <header>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <h1 class="jumbotron">The High Five Championship Games</h1>
+            <a class="nav-link" href="#!/">Home</a>
+            <a class="nav-link" href="#!/percy">Percy Jackson</a>
+            <a class="nav-link" href="#!/wonderwoman">Wonder Woman</a>
+            <a class="nav-link" href="#!/zuko">Zuko</a>
+    </header>
+        <ng-view></ng-view>
+    </nav>
+    
+</body>
+</html>
